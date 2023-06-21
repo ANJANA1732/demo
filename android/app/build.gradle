@@ -29,6 +29,7 @@ android {
     namespace "com.example.demo"
     compileSdkVersion 33
     ndkVersion flutter.ndkVersion
+    usesCleartextTraffic "true"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -69,4 +70,5 @@ flutter {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'com.squareup.okhttp3:okhttp:4.5.0'
 }
