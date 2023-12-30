@@ -1,6 +1,7 @@
 # demo
 
-A new Flutter project.
+Mini Project 
+Topic - A Flutter app which help to find substitute for medicine using ML.
 
 ## Getting Started
 
